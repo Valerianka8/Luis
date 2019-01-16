@@ -194,6 +194,9 @@ header {
     .row {
       div {
         text-align: center;
+        .padding_b_80{
+          padding-bottom: 80px;
+        }
         h3 {
           font-size: 24px;
           font-family: AsapMedium;
@@ -370,6 +373,7 @@ header {
     }
   }
 }
+
 .user_avatar {
   display: inline-block;
   margin-right: 31px;
@@ -380,7 +384,7 @@ header {
   max-width: 600px;
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
   background-color: white;
   width: 11px;
   height: 11px;
@@ -388,35 +392,36 @@ header {
   border: solid 1px black;
 }
 
-.owl-nav{
+.owl-nav {
   display: none;
 }
-.owl-dots{
+
+.owl-dots {
   position: absolute;
   bottom: 38px;
   width: 100%;
   text-align: center;
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active{
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active {
   background-color: black;
   outline: none;
 }
 
-section{
+section {
   padding: 52px 0 65px 0;
   background-color: #f6f6f6;
   margin-bottom: 154px;
-  .container{
-    .row{
-      .item_fun{
+  .container {
+    .row {
+      .item_fun {
         text-align: center;
-        h3{
+        h3 {
           font-size: 30px;
           font-family: AsapRegular;
           color: #454545;
         }
-        h4{
+        h4 {
           font-size: 22px;
           font-family: AsapMedium;
           color: #454545;
@@ -425,10 +430,108 @@ section{
     }
   }
 }
-footer{
-  .container{
-    .row{
-      
+
+footer {
+  background-image: url('../images/footer_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 145px 0 30px 0;
+  margin-bottom: 12px;
+  .container {
+    .row {
+      .send_b {
+        text-align: center;
+        button {
+          i{
+            font-size: 16px;
+            color: #595959;
+            padding-left: 5px;
+          }
+          line-height: 48px;
+          text-transform: uppercase;
+          font-family: AsapMedium;
+          font-size: 16px;
+          color: #595959;
+          display: inline-block;
+          margin: 15px 0 58px 0;
+          border: solid $main_color 1px;
+          text-decoration: none;
+          padding: 0 45px 0 47px;
+          &:hover {
+            background-color: white;
+            border: none;
+            line-height: 50px;
+            padding: 0 46px 0 48px;
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+      form {
+        input {
+          font-family: AsapRegular;
+          margin: 15px;
+          width: 370px;
+          line-height: 57px;
+          padding-left: 9px;
+          font-size: 16px;
+        }
+        textarea {
+          margin: 15px;
+          width: 768px;
+          height: 207px;
+          resize: none;
+          padding: 25px 0 0 10px;
+          font-family: AsapRegular;
+          font-size: 16px;
+        }
+      }
+      .h2_center {
+        text-align: center;
+        h2 {
+          font-size: 46px;
+          font-family: AsapBold;
+          text-transform: uppercase;
+          color: #f3f3f3;
+          text-align: center;
+          position: relative;
+          margin-bottom: 71px;
+          display: inline-block;
+          letter-spacing: 6px;
+          &:before {
+            position: absolute;
+            content: "----------";
+            letter-spacing: -10px;
+            color: #c1c1c1;
+            top: -45px;
+            right: 131px;
+          }
+        }
+      }
+      .social{
+        border-top: 1px solid white;
+        .social_icons{
+          line-height: 27px;
+          width: 27px;
+          text-align: center;
+          display: inline-block;
+          margin-right: 4px;
+          margin-top: 26px;
+          background-color: white;
+          &:hover{
+            background-color: #0084b4;
+            color: #ffffff;
+          }
+        }
+      }
+      p{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 24%;
+        color: #ffffff;
+        display: inline-block;
+      }
     }
   }
 }

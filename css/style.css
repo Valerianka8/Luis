@@ -130,6 +130,8 @@ header {
   padding: 118px 0 113px 0; }
   .main3 .container .row div {
     text-align: center; }
+    .main3 .container .row div .padding_b_80 {
+      padding-bottom: 80px; }
     .main3 .container .row div h3 {
       font-size: 24px;
       font-family: AsapMedium;
@@ -305,5 +307,90 @@ section {
       font-size: 22px;
       font-family: AsapMedium;
       color: #454545; }
+
+footer {
+  background-image: url("../images/footer_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 145px 0 30px 0;
+  margin-bottom: 12px; }
+  footer .container .row .send_b {
+    text-align: center; }
+    footer .container .row .send_b button {
+      line-height: 48px;
+      text-transform: uppercase;
+      font-family: AsapMedium;
+      font-size: 16px;
+      color: #595959;
+      display: inline-block;
+      margin: 15px 0 58px 0;
+      border: solid #4d4d4d 1px;
+      text-decoration: none;
+      padding: 0 45px 0 47px; }
+      footer .container .row .send_b button i {
+        font-size: 16px;
+        color: #595959;
+        padding-left: 5px; }
+      footer .container .row .send_b button:hover {
+        background-color: white;
+        border: none;
+        line-height: 50px;
+        padding: 0 46px 0 48px;
+        -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
+  footer .container .row form input {
+    font-family: AsapRegular;
+    margin: 15px;
+    width: 370px;
+    line-height: 57px;
+    padding-left: 9px;
+    font-size: 16px; }
+  footer .container .row form textarea {
+    margin: 15px;
+    width: 768px;
+    height: 207px;
+    resize: none;
+    padding: 25px 0 0 10px;
+    font-family: AsapRegular;
+    font-size: 16px; }
+  footer .container .row .h2_center {
+    text-align: center; }
+    footer .container .row .h2_center h2 {
+      font-size: 46px;
+      font-family: AsapBold;
+      text-transform: uppercase;
+      color: #f3f3f3;
+      text-align: center;
+      position: relative;
+      margin-bottom: 71px;
+      display: inline-block;
+      letter-spacing: 6px; }
+      footer .container .row .h2_center h2:before {
+        position: absolute;
+        content: "----------";
+        letter-spacing: -10px;
+        color: #c1c1c1;
+        top: -45px;
+        right: 131px; }
+  footer .container .row .social {
+    border-top: 1px solid white; }
+    footer .container .row .social .social_icons {
+      line-height: 27px;
+      width: 27px;
+      text-align: center;
+      display: inline-block;
+      margin-right: 4px;
+      margin-top: 26px;
+      background-color: white; }
+      footer .container .row .social .social_icons:hover {
+        background-color: #0084b4;
+        color: #ffffff; }
+  footer .container .row p {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 24%;
+    color: #ffffff;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

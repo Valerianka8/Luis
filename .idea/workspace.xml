@@ -34,46 +34,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1441" />
+          <entry key="html" value="1717" />
           <entry key="js" value="2" />
-          <entry key="scss" value="2478" />
+          <entry key="scss" value="3190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1441" />
+          <entry key="HTML" value="1717" />
           <entry key="JavaScript" value="2" />
-          <entry key="SCSS" value="2478" />
+          <entry key="SCSS" value="3190" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="286" column="38" selection-start-line="286" selection-start-column="38" selection-end-line="286" selection-end-column="38" />
+            <state relative-caret-position="470">
+              <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
               <folding>
-                <marker date="1547671756972" expanded="true" signature="8392:8877" ph="..." />
-                <marker date="1547671756972" expanded="true" signature="11200:12002" ph="..." />
+                <marker date="1547677058526" expanded="true" signature="8192:8677" ph="..." />
+                <marker date="1547677058526" expanded="true" signature="11000:12790" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-              <folding>
-                <element signature="e#11#363#0" />
-                <element signature="e#342#710#0" />
-                <element signature="e#689#1057#0" />
-                <element signature="e#1036#1412#0" />
-              </folding>
+            <state relative-caret-position="334">
+              <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-856" />
+            <state relative-caret-position="-176" />
           </provider>
         </entry>
       </file>
@@ -113,8 +107,8 @@
         <option value="$PROJECT_DIR$/css.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -195,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547640886274</updated>
-      <workItem from="1547640887605" duration="30757000" />
+      <workItem from="1547640887605" duration="36011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30757000" />
+    <option name="totallyTimeSpent" value="36011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -228,7 +222,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17848411" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17848411" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -300,30 +294,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-          <folding>
-            <element signature="e#11#363#0" />
-            <element signature="e#342#710#0" />
-            <element signature="e#689#1057#0" />
-            <element signature="e#1036#1412#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="286" column="38" selection-start-line="286" selection-start-column="38" selection-end-line="286" selection-end-column="38" />
+        <state relative-caret-position="470">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
           <folding>
-            <marker date="1547671756972" expanded="true" signature="8392:8877" ph="..." />
-            <marker date="1547671756972" expanded="true" signature="11200:12002" ph="..." />
+            <marker date="1547677058526" expanded="true" signature="8192:8677" ph="..." />
+            <marker date="1547677058526" expanded="true" signature="11000:12790" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
         </state>
       </provider>
     </entry>
