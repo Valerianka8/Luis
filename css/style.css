@@ -29,13 +29,14 @@
       background-color: transparent; }
 
 header {
-  position: fixed;
+  position: fixed !important;
   top: 0;
-  background-color: transparent; }
+  background-color: transparent;
+  z-index: 5; }
 
 .main {
   background-image: url("../images/bg_top.png");
-  padding: 101px 0 0 0;
+  padding-top: 101px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; }
@@ -110,6 +111,7 @@ header {
   margin: 201px 0 0 0;
   font-size: 46px;
   font-family: AsapBold;
+  text-transform: uppercase;
   color: #7c7c7c;
   position: relative;
   letter-spacing: 6px; }
@@ -125,8 +127,30 @@ header {
 
 .main3 {
   background-color: #f6f6f6;
-  padding: 118px 0 0 114px; }
-  .main3 .container .row h2 {
+  padding: 118px 0 114px 0; }
+  .main3 .container .row div {
     text-align: center; }
+    .main3 .container .row div h3 {
+      display: block;
+      font-size: 24px;
+      font-family: AsapMedium;
+      color: #4d4d4d; }
+    .main3 .container .row div img {
+      text-align: center; }
+  .main3 .container .row h2 {
+    font-size: 46px;
+    font-family: AsapBold;
+    color: #7c7c7c;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+    letter-spacing: 6px; }
+    .main3 .container .row h2:before {
+      position: absolute;
+      content: "----------";
+      letter-spacing: -10px;
+      top: -45px;
+      left: 48%; }
 
 /*# sourceMappingURL=style.css.map */
