@@ -7,6 +7,7 @@
   url('../fonts/AsapBold.ttf') format('truetype'),
   url('../fonts/AsapBold.svg#AsapBold') format('svg');
 }
+
 @font-face {
   font-family: 'AsapItalic';
   src: url('../fonts/AsapItalic.eot');
@@ -16,6 +17,7 @@
   url('../fonts/AsapItalic.ttf') format('truetype'),
   url('../fonts/AsapItalic.svg#AsapItalic') format('svg');
 }
+
 @font-face {
   font-family: 'AsapMedium';
   src: url('../fonts/AsapMedium.eot');
@@ -25,6 +27,7 @@
   url('../fonts/AsapMedium.ttf') format('truetype'),
   url('../fonts/AsapMedium.svg#AsapMedium') format('svg');
 }
+
 @font-face {
   font-family: 'AsapRegular';
   src: url('../fonts/AsapRegular.eot');
@@ -46,11 +49,11 @@ $main_color: #4d4d4d;
       color: $main_color;
       font-family: AsapRegular;
       font-size: 16px;
-      &:hover{
+      &:hover {
         border-bottom: 2px #878787 solid;
         background-color: transparent;
       }
-      &:focus{
+      &:focus {
         background-color: transparent;
       }
     }
@@ -58,7 +61,7 @@ $main_color: #4d4d4d;
 }
 
 header {
-  position: fixed!important;
+  position: fixed !important;
   top: 0;
   background-color: transparent;
   z-index: 5;
@@ -70,31 +73,31 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  .container{
+  .container {
     .row {
-      div{
-        .know_more{
+      div {
+        .know_more {
           padding: 0 28px 0 29px;
-          &:hover{
+          &:hover {
             background-color: white;
             border: none;
             line-height: 50px;
             padding: 0 29px 0 30px;
-            -webkit-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
           }
         }
-        .hire_me{
+        .hire_me {
           padding: 0 44px 0 46px;
-          &:hover{
+          &:hover {
             background-color: white;
             border: none;
             line-height: 50px;
             padding: 0 45px 0 47px;
-            -webkit-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
           }
         }
         a {
@@ -109,30 +112,31 @@ header {
           margin-right: 13px;
           text-decoration: none;
         }
-        h1{
+        h1 {
           padding-top: 160px;
           font-family: AsapMedium;
           font-size: 90px;
           color: $main_color;
         }
-        h3{
+        h3 {
           font-family: AsapMedium;
           font-size: 22px;
           color: #9a9a9a;
           padding-left: 6px;
         }
-        img{
+        img {
           width: 100%;
         }
       }
     }
   }
 }
+
 .main2 {
-  .container{
-    .row{
-      div{
-        a{
+  .container {
+    .row {
+      div {
+        a {
           line-height: 48px;
           text-transform: uppercase;
           font-family: AsapMedium;
@@ -143,22 +147,22 @@ header {
           border: solid $main_color 1px;
           text-decoration: none;
           padding: 0 45px 0 47px;
-          &:hover{
+          &:hover {
             background-color: white;
             border: none;
             line-height: 50px;
             padding: 0 46px 0 48px;
-            -webkit-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
-            box-shadow: 0 34px 71px -11px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
           }
         }
-        p{
+        p {
           font-family: AsapRegular;
           font-size: 16px;
           color: $main_color;
         }
-        h2{
+        h2 {
           margin: 201px 0 0 0;
           font-size: 46px;
           font-family: AsapBold;
@@ -166,14 +170,14 @@ header {
           color: #7c7c7c;
           position: relative;
           letter-spacing: 6px;
-          &:before{
+          &:before {
             position: absolute;
             content: "---------";
             letter-spacing: -10px;
             top: -45px;
           }
         }
-        img{
+        img {
           width: 100%;
           padding-top: 106px;
           padding-bottom: 124px;
@@ -182,24 +186,23 @@ header {
     }
   }
 }
-.main3{
+
+.main3 {
   background-color: #f6f6f6;
-  padding: 118px 0 114px 0;
-  .container{
-    .row{
-      div{
+  padding: 118px 0 113px 0;
+  .container {
+    .row {
+      div {
         text-align: center;
-        h3{
-          display: block;
+        h3 {
           font-size: 24px;
           font-family: AsapMedium;
           color: $main_color;
         }
-        img{
-          text-align: center;
+        img {
         }
       }
-      h2{
+      h2 {
         font-size: 46px;
         font-family: AsapBold;
         color: #7c7c7c;
@@ -207,15 +210,225 @@ header {
         text-align: center;
         margin-bottom: 70px;
         position: relative;
+        display: inline-block;
         letter-spacing: 6px;
-        &:before{
+        &:before {
           position: absolute;
           content: "----------";
           letter-spacing: -10px;
           top: -45px;
-          left: 48%;
+          right: 105px;
         }
       }
+    }
+  }
+}
+
+.main4 {
+  padding: 101px 0 127px 0;
+  .container {
+    .row {
+      div {
+        text-align: center;
+        h2 {
+          font-size: 46px;
+          font-family: AsapBold;
+          text-transform: uppercase;
+          color: #7c7c7c;
+          text-align: center;
+          position: relative;
+          display: inline-block;
+          letter-spacing: 6px;
+          &:before {
+            position: absolute;
+            content: "----------";
+            letter-spacing: -10px;
+            top: -45px;
+            right: 107px;
+          }
+        }
+        img {
+          padding: 60px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+.main5 {
+  background-color: #f6f6f6;
+  padding: 126px 0 123px 0;
+  .container {
+    .row {
+      div {
+        text-align: center;
+        .load_more {
+          line-height: 48px;
+          text-transform: uppercase;
+          font-family: AsapMedium;
+          font-size: 16px;
+          color: $main_color;
+          display: inline-block;
+          margin-top: 30px;
+          border: solid $main_color 1px;
+          text-decoration: none;
+          padding: 0 45px 0 47px;
+          &:hover {
+            background-color: white;
+            border: none;
+            line-height: 50px;
+            padding: 0 46px 0 48px;
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+          }
+        }
+        img {
+          padding: 15px 0;
+          &:hover {
+            -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+          }
+        }
+        h2 {
+          font-size: 46px;
+          font-family: AsapBold;
+          text-transform: uppercase;
+          color: #7c7c7c;
+          text-align: center;
+          position: relative;
+          display: inline-block;
+          letter-spacing: 6px;
+          &:before {
+            position: absolute;
+            content: "----------";
+            letter-spacing: -10px;
+            top: -45px;
+            right: 131px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main6 {
+  padding: 126px 0 120px 0;
+  .container {
+    .row {
+      .h2_center {
+        text-align: center;
+        h2 {
+          font-size: 46px;
+          font-family: AsapBold;
+          text-transform: uppercase;
+          color: #7c7c7c;
+          text-align: center;
+          position: relative;
+          display: inline-block;
+          margin-bottom: 55px;
+          letter-spacing: 6px;
+          &:before {
+            position: absolute;
+            content: "----------";
+            letter-spacing: -10px;
+            top: -45px;
+            right: 45%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.owl-carousel {
+  display: block;
+  .item {
+    border: 1px solid #212121;
+    padding: 81px 0 107px 120px;
+    img {
+      vertical-align: 0;
+    }
+    h3 {
+      font-family: AsapMedium;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #474747;
+    }
+    h5 {
+      font-family: AsapItalic;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #474747;
+    }
+    p {
+      font-family: AsapRegular;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #9c9c9c;
+    }
+  }
+}
+.user_avatar {
+  display: inline-block;
+  margin-right: 31px;
+}
+
+.user_info {
+  display: inline-block;
+  max-width: 600px;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+  background-color: white;
+  width: 11px;
+  height: 11px;
+  margin: 2px;
+  border: solid 1px black;
+}
+
+.owl-nav{
+  display: none;
+}
+.owl-dots{
+  position: absolute;
+  bottom: 38px;
+  width: 100%;
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active{
+  background-color: black;
+  outline: none;
+}
+
+section{
+  padding: 52px 0 65px 0;
+  background-color: #f6f6f6;
+  margin-bottom: 154px;
+  .container{
+    .row{
+      .item_fun{
+        text-align: center;
+        h3{
+          font-size: 30px;
+          font-family: AsapRegular;
+          color: #454545;
+        }
+        h4{
+          font-size: 22px;
+          font-family: AsapMedium;
+          color: #454545;
+        }
+      }
+    }
+  }
+}
+footer{
+  .container{
+    .row{
+      
     }
   }
 }
