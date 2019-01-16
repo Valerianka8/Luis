@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'AsapBold';
+  src: url("../fonts/AsapBold.eot");
+  src: url("../fonts/AsapBold.eot") format("embedded-opentype"), url("../fonts/AsapBold.woff2") format("woff2"), url("../fonts/AsapBold.woff") format("woff"), url("../fonts/AsapBold.ttf") format("truetype"), url("../fonts/AsapBold.svg#AsapBold") format("svg"); }
+@font-face {
+  font-family: 'AsapItalic';
+  src: url("../fonts/AsapItalic.eot");
+  src: url("../fonts/AsapItalic.eot") format("embedded-opentype"), url("../fonts/AsapItalic.woff2") format("woff2"), url("../fonts/AsapItalic.woff") format("woff"), url("../fonts/AsapItalic.ttf") format("truetype"), url("../fonts/AsapItalic.svg#AsapItalic") format("svg"); }
+@font-face {
+  font-family: 'AsapMedium';
+  src: url("../fonts/AsapMedium.eot");
+  src: url("../fonts/AsapMedium.eot") format("embedded-opentype"), url("../fonts/AsapMedium.woff2") format("woff2"), url("../fonts/AsapMedium.woff") format("woff"), url("../fonts/AsapMedium.ttf") format("truetype"), url("../fonts/AsapMedium.svg#AsapMedium") format("svg"); }
+@font-face {
+  font-family: 'AsapRegular';
+  src: url("../fonts/AsapRegular.eot");
+  src: url("../fonts/AsapRegular.eot") format("embedded-opentype"), url("../fonts/AsapRegular.woff2") format("woff2"), url("../fonts/AsapRegular.woff") format("woff"), url("../fonts/AsapRegular.ttf") format("truetype"), url("../fonts/AsapRegular.svg#AsapRegular") format("svg"); }
+.nav li {
+  padding: 15px 15px 0 15px; }
+  .nav li a {
+    padding: 10px 0 8px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    font-family: AsapRegular;
+    font-size: 16px; }
+    .nav li a:hover {
+      border-bottom: 2px #878787 solid;
+      background-color: transparent; }
+    .nav li a:focus {
+      background-color: transparent; }
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: transparent; }
+
+.main {
+  background-image: url("../images/bg_top.png");
+  padding: 101px 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+  .main .container .row div .know_more {
+    padding: 0 28px 0 29px; }
+    .main .container .row div .know_more:hover {
+      background-color: white;
+      border: none;
+      line-height: 50px;
+      padding: 0 29px 0 30px;
+      -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+      box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
+  .main .container .row div .hire_me {
+    padding: 0 44px 0 46px; }
+    .main .container .row div .hire_me:hover {
+      background-color: white;
+      border: none;
+      line-height: 50px;
+      padding: 0 45px 0 47px;
+      -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+      box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
+  .main .container .row div a {
+    line-height: 48px;
+    text-transform: uppercase;
+    font-family: AsapMedium;
+    font-size: 16px;
+    color: #4d4d4d;
+    display: inline-block;
+    margin-top: 20px;
+    border: solid #4d4d4d 1px;
+    margin-right: 13px;
+    text-decoration: none; }
+  .main .container .row div h1 {
+    padding-top: 160px;
+    font-family: AsapMedium;
+    font-size: 90px;
+    color: #4d4d4d; }
+  .main .container .row div h3 {
+    font-family: AsapMedium;
+    font-size: 22px;
+    color: #9a9a9a;
+    padding-left: 6px; }
+  .main .container .row div img {
+    width: 100%; }
+
+.main2 .container .row div a {
+  line-height: 48px;
+  text-transform: uppercase;
+  font-family: AsapMedium;
+  font-size: 16px;
+  color: #4d4d4d;
+  display: inline-block;
+  margin-top: 20px;
+  border: solid #4d4d4d 1px;
+  text-decoration: none;
+  padding: 0 45px 0 47px; }
+  .main2 .container .row div a:hover {
+    background-color: white;
+    border: none;
+    line-height: 50px;
+    padding: 0 46px 0 48px;
+    -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
+.main2 .container .row div p {
+  font-family: AsapRegular;
+  font-size: 16px;
+  color: #4d4d4d; }
+.main2 .container .row div h2 {
+  margin: 201px 0 0 0;
+  font-size: 46px;
+  font-family: AsapBold;
+  color: #7c7c7c;
+  position: relative;
+  letter-spacing: 6px; }
+  .main2 .container .row div h2:before {
+    position: absolute;
+    content: "---------";
+    letter-spacing: -10px;
+    top: -45px; }
+.main2 .container .row div img {
+  width: 100%;
+  padding-top: 106px;
+  padding-bottom: 124px; }
+
+.main3 {
+  background-color: #f6f6f6;
+  padding: 118px 0 0 114px; }
+  .main3 .container .row h2 {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
