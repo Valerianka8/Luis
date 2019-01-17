@@ -173,7 +173,8 @@ header {
         top: -45px;
         right: 107px; }
     .main4 .container .row div img {
-      padding: 60px 0 0 0; }
+      padding: 60px 0 0 0;
+      width: 100%; }
 
 .main5 {
   background-color: #f6f6f6;
@@ -200,7 +201,8 @@ header {
         -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
         box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
     .main5 .container .row div img {
-      padding: 15px 0; }
+      padding: 15px 0;
+      width: 100%; }
       .main5 .container .row div img:hover {
         -webkit-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75);
@@ -341,15 +343,15 @@ footer {
         box-shadow: 0 34px 71px -11px rgba(0, 0, 0, 0.75); }
   footer .container .row form input {
     font-family: AsapRegular;
-    margin: 15px;
-    width: 370px;
+    margin-bottom: 15px;
+    width: 100%;
     line-height: 57px;
     padding-left: 9px;
     font-size: 16px; }
   footer .container .row form textarea {
-    margin: 15px;
-    width: 768px;
+    width: 100%;
     height: 207px;
+    margin-bottom: 15px;
     resize: none;
     padding: 25px 0 0 10px;
     font-family: AsapRegular;
@@ -408,5 +410,12 @@ footer {
   -webkit-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.75); }
+
+.navbar-toggle {
+  border: 1px solid black;
+  border-radius: 0;
+  margin-top: 20px; }
+  .navbar-toggle .icon-bar {
+    background-color: black; }
 
 /*# sourceMappingURL=style.css.map */

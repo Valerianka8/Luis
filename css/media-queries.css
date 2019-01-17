@@ -1,0 +1,99 @@
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .main h1{
+        font-size: 56px!important;
+        padding-top: 0!important;
+    }
+    .main h3{
+        font-size: 19px!important;
+    }
+    .about_me {
+        text-align: center!important;
+    }
+    .main6 .h2_center h2{
+        font-size: 40px!important;
+    }
+    .owl-carousel .item {
+        padding: 50px!important;
+        text-align: center!important;
+    }
+    .owl-carousel .item img {
+        padding-left: 29px;
+    }
+    .main3 .container .row div h3 {
+        padding-bottom: 72px;
+    }
+    footer .container .row .social {
+        text-align: center;
+    }
+    footer .container .row p {
+        padding-top: 10px;
+        padding-left: 0!important;
+    }
+    #back-top {
+        bottom: 10px!important;
+        right: 10px!important;
+    }
+    .main .container .row div a {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .main h1{
+        font-size: 47px!important;
+        padding-top: 0!important;
+    }
+    .main h3{
+        font-size: 16px!important;
+    }
+    .about_me {
+        text-align: center!important;
+    }
+    .main6 .h2_center h2{
+        font-size: 35px!important;
+    }
+    .owl-carousel .item {
+        padding: 50px!important;
+        text-align: center!important;
+    }
+    .owl-carousel .item img {
+     padding-left: 29px;
+    }
+    .main3 .container .row div h3 {
+        padding-bottom: 72px;
+    }
+    footer .container .row .social {
+        text-align: center;
+    }
+    footer .container .row p {
+        padding-top: 10px;
+        padding-left: 0!important;
+    }
+    #back-top {
+        bottom: 5px!important;
+        right: 5px!important;
+    }
+    .main .container .row div a {
+        font-size: 12px!important;
+        margin-right: 16px!important;
+        margin-bottom: 10px;
+    }
+    .main .container .row div .hire_me {
+        padding: 0 38px 0 38px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main2 .container .row div h2 {
+        margin: 125px 0 0 0!important;
+    }
+    .main .container .row div h1 {
+        padding-top: 0!important;
+    }
+    .main3 .container .row div h3 {
+        padding-bottom: 72px;
+    }
+    footer .container .row p{
+        padding-left: 40%!important;
+    }
+}
