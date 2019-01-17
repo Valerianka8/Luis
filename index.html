@@ -18,6 +18,23 @@
             src="https://code.jquery.com/jquery-2.2.1.js"
             integrity="sha256-eNcUzO3jsv0XlJLveFEkbB8bA7/CroNpNVk3XpmnwHc="
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function up() {
+            var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+            if(top > 0) {
+                window.scrollBy(0,((top+100)/-10));
+                t = setTimeout('up()',20);
+            } else clearTimeout(t);
+            return false;
+        }
+        jQuery(function(f){
+            var element = f('#back-top');
+            f(window).scroll(function(){
+                element['fade'+ (f(this).scrollTop() > 600 ? 'In': 'Out')](250);
+            });
+        });
+    </script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
@@ -47,6 +64,7 @@
             </div>
         </div>
     </nav>
+    <a id="back-top" href="#" onclick="return up()"> <i class="fas fa-angle-up"></i> </a>
 </header>
 <div class="main">
     <div class="container">
