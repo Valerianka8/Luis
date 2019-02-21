@@ -21,9 +21,10 @@
     text-transform: uppercase;
     color: #4d4d4d;
     font-family: AsapRegular;
+    position: relative;
     font-size: 16px; }
     .nav li a:hover {
-      border-bottom: 2px #878787 solid;
+      /*border-bottom: 2px #878787 solid;*/
       background-color: transparent; }
     .nav li a:focus {
       background-color: transparent; }
@@ -31,7 +32,7 @@
 header {
   position: fixed !important;
   top: 0;
-  background-color: transparent;
+  background-color: rgba(226, 226, 226, 0.7);
   z-index: 5; }
 
 .main {
@@ -418,4 +419,11 @@ footer {
   .navbar-toggle .icon-bar {
     background-color: black; }
 
-/*# sourceMappingURL=style.css.map */
+  .nav li a:hover:before {
+    content: '___';
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #878787;
+    position: absolute;
+  }
